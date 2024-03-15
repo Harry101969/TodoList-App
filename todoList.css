@@ -1,0 +1,212 @@
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 0;
+
+  /* background-image: url('https://www.proofhub.com/articles/wp-content/uploads/2020/09/best-to-do-list-apps-for-better-task-management.jpg'); */
+  background-image: url('https://img.freepik.com/free-vector/overlapping-shapes-background-design_23-2148647100.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.final-todo,
+.initial {
+  color: whitesmoke;
+}
+
+.header {
+  font-size: 25px;
+  font-weight: 600;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.ipt-task {
+  font-size: 30px;
+  font-weight: 600;
+  color: whitesmoke;
+}
+
+#input-task {
+  background-color: transparent;
+  font-size: 1.5rem;
+  color: whitesmoke;
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+  font-size: 25px;
+  padding: 10px;
+  width: 350px;
+  border-radius: 4px;
+  box-shadow: 3px 3px 3px 2px;
+  cursor: auto;
+  color: whitesmoke;
+  border-color: black;
+  border-style: solid;
+  transition: transform 1s ease 0s;
+}
+
+#input-task::placeholder {
+  color: whitesmoke;
+}
+
+#input-task:active {
+  transform: translateY(-14px);
+  background-color: #A90F54;
+}
+
+#add-task {
+  font-size: 18px;
+  font-weight: 500;
+  border-color: aliceblue;
+  margin-left: 5px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: transparent;
+  box-shadow: 3px 3px 3px 2px;
+  color: whitesmoke;
+  cursor: pointer;
+  transition: transform 0.3s ease 0s;
+}
+
+#add-task:active {
+  background-color: red;
+}
+
+#add-task:hover {
+  transform: translateY(-8px);
+}
+
+.confirm-btn,
+.crfm-edit,
+.edit-btn,
+.rvm-btn {
+  height: 34px;
+  margin-right: 5px;
+  margin-left: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  box-shadow: 3px 3px 3px 3px black;
+  background-color: transparent;
+  font-size: 16px;
+  transition: transform 0.3s ease 0s;
+}
+
+.crfm-edit:hover {
+  transform: translateY(-8px);
+}
+
+.confirm-btn:hover {
+  transform: translateY(-8px);
+}
+
+.edit-btn:hover {
+  transform: translateY(-8px);
+}
+
+.rvm-btn:hover {
+  transform: translateY(-8px);
+}
+
+.taskInput {
+  height: 35px;
+  margin-bottom: 10px;
+  background-color: transparent;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 5px;
+  color: whitesmoke;
+  border-style: solid;
+  box-shadow: 2px 2px 2px 2px whitesmoke;
+}
+
+.main1 {
+  margin-left: 1000px;
+  margin-top: 27px;
+  position: fixed;
+  margin-left: 30px;
+}
+
+.main2 {
+  position: fixed;
+  margin-left: 1000px;
+  margin-bottom: 100px;
+}
+
+#rst-list,
+#reset {
+  padding: 12px;
+  background-color: transparent;
+  color: white;
+  box-shadow: 3px 3px 3px 3px;
+  border-radius: 4px;
+  color: whitesmoke;
+  cursor: pointer;
+  font-size: 18px;
+  transition: transform 0.3s ease 0s;
+}
+
+#rst-list:hover {
+  transform: translateY(+10px);
+
+}
+
+#rst-list:active {
+  background-color: red;
+}
+
+#reset:active {
+  background-color: red;
+}
+
+#reset:hover {
+  transform: translateY(-8px);
+
+}
+
+.toast1 {
+  text-align: center;
+  display: hidden;
+  margin-top: 120px;
+  margin-left: 570px;
+  overflow: hidden;
+  background-color: transparent;
+  height: 230px;
+  width: 200px;
+  box-shadow: 3px 3px 3px 3px black;
+  border-radius: 5px;
+  transition: transform 0.3s ease 0s;
+}
+
+.toast1:hover {
+  transform: translateY(+10px);
+}
+
+.toast {
+  text-align: center;
+  position: relative;
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: 24px;
+  color: whitesmoke;
+  overflow-x: hidden;
+  overflow-y: scroll;
+
+}
+
+*::-webkit-scrollbar {
+  display: hidden;
+  background-color: transparent;
+}
+
+.final {
+  color: whitesmoke;
+  height: 30px;
+  margin-bottom: 10px;
+  background-color: transparent;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 20px;
+  box-shadow: 3px 3px 3px 3px black;
+}
